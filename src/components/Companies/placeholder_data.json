@@ -1,0 +1,361 @@
+[
+    {
+        "id": 0,
+        "company": "NFQ Asia (8bit Rockstars)",
+        "quote": "The office is beautiful and the work is challenging and fulfilling. Great place to work in and very good work provided.",
+        "logo": "https://cdn.itviec.com/employers/nfq-asia-8bit-rockstars/logo/w170/wSqDe722rToJQ6oXH3Yc8QJZ/nfq-asia-8bit-rockstars-logo.png",
+        "banner": "https://cdn.itviec.com/photos/42784/headline_photo/nfq-asia-8bit-rockstars-headline_photo.jpg?7hA6o8budn59KaJMNuopEh1R",
+        "address": "Ho Chi Minh, Da Nang",
+        "people": "151-300",
+        "country": "Germany",
+        "day": "Monday - Friday",
+        "OT": "No OT",
+        "title": "NFQ Asia is part of the global NFQ Group. We help ambitious fast-moving international startups",
+        "description":[
+            "NFQ Asia is part of the global NFQ Group, building high-performance teams in Europe and Asia.",
+"Since 1999, NFQ has implemented numerous startup projects and used this expertise to enable and collaborate with our clients worldwide.",
+"NFQ has over 300 developers located in Europe and in Asia. Our customers are typically ambitious startups who want to move fast. We power hundreds of companies like KAYAK.COM, GetYourGuide, HomeTogo and some of the successful Rocket Ventures.",
+"Our page: www.nfq.asia",
+"Our Facebook: https://www.facebook.com/nfq.asia/"
+        ],
+        "skills": [
+            "Javascript", "Java","PHP", "System Engineer", "ReactJS"
+        ],
+        "reasons": [
+            "We truly value your thoughts and opinions",
+            "Global and professional",
+            "Honest, Transparent, Open-minded, Respect"
+        ],
+        "benefits": ["Laptop is provided.",
+            "A fun & dynamic environment and freedom to be creative.",
+            "Rock in open-mind, kind & humble band.",
+            "Modern office with the flexible relaxing zone.",
+            "Company trip, team building & other community Tech activities.",
+            "Year-end bonus, Loyalty bonus (up to 45,000$).",
+            "Performance review  2 times/ year."
+        ],  
+        "location":"https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d7838.868211558753!2d106.702042!3d10.778026!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31752f47d87887ab%3A0x7f406e1f2abd3c53!2zVmluY29tIEIsIDcyIEzDqiBUaMOhbmggVMO0biwgQuG6v24gTmdow6ksIFF14bqtbiAxLCBI4buTIENow60gTWluaCwgVmnhu4d0IE5hbQ!5e0!3m2!1svi!2sus!4v1580868392526!5m2!1svi!2sus",
+        "rating": 4.8
+    },
+    {
+        "id": 1,
+        "company": "BOCASAY",
+        "quote":" Only one word: Nice! Good enviroment, good salary, good benifit, flexible time, nice colleague and nice boss! No OT ever.",
+        "logo": "https://cdn.itviec.com/employers/bocasay/logo/w170/4QrC4cCjzmMTfyrw4xhEEHT3/bocasay-logo.png",
+        "banner": "https://cdn.itviec.com/photos/41678/processed_headline_photo/bocasay-headline_photo.JPG?ST9XVBd8aohXHX6ZJgYGcEex",
+        "address": " Ho Chi Minh, Ha Noi",
+        "people": "1-50",
+        "country": "France",
+        "day": "Monday - Friday",
+        "OT": "No OT",
+        "title": "Bocasay Vietnam",
+        "description":[
+            "BOCASAY Group is driven by a strong entrepreneurial spirit and the desire to create a link between people and their environment, we associate humanism with a results-based culture.",
+"Thanks to its independent shareholding stability, the group has been conducting a long-term innovative IT-producing strategy for the past 7 years.",
+"Operating in 3 countries with 120 employees globally (France, Vietnam, Madagascar), BOCASAY Group is now holding strong positions in developing Agile IT solutions.",
+"BOCASAY VIETNAM is a BOCASAY Group company, deliver and implement IT solutions for software publisher and integrator in Fintech, Medical, Insurance, Media and Startup business line.",
+"Working with BOCASAY you’ll have the opportunities to develop your skills and career in an exciting work-place in touch with an international and innovative environment."            
+        ],
+        "skills": ["Javascript", "PHP", "ReactJS", "Symfony","Angular"],
+        "reasons": [
+            "Project and working atmosphere",
+"Possibility to work abroad",
+"Many salary supplements and benefits are available"
+        ],
+        "benefits": [
+            "Exceptional talents will be matched with an exceptional salary",
+"Young & Friendly working environment",
+"Encourage people to be lead & push new ideas forward in our small teams",
+"Social/Health/Unemployment Insurances are fully levied on the salary",
+"15 days of annual leave",
+"Salary review: 2 times/year",
+"13th salary is paid before the Lunar New Year",
+"PVI Healthcare Insurance",
+"On-boarding program (opportunities to work abroad after 2 years)"
+        ],
+        "location":"https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d7838.266159912121!2d106.68258500000002!3d10.801118!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x3d2d2959024b9b41!2zTmfDoyB0xrAgUGhhbiBYw61jaCBMb25n!5e0!3m2!1svi!2sus!4v1580871621993!5m2!1svi!2sus",
+        "rating": 4.7
+    },
+    {
+        "id": 2,
+        "company": "East Agile",
+        "quote":"Nền tảng kiến thức của developers từ junior đến senior đều tốt hơn bình quân ngành. Công ty có rất nhiều senior developers sẵn sàng giúp đỡ nhân viên mới, làm việc theo pair cũng giúp nắm bắt kiến thức, process nhanh hơn. Môi trường làm...",
+        "logo": "https://cdn.itviec.com/employers/east-agile/logo/w170/EcEsSVW4cRfXN8t9gWpEaieA/east-agile-logo.png",
+        "banner": "https://cdn.itviec.com/photos/10406/processed_headline_photo/east-agile-headline_photo.jpg?8mJFAWBMNBzjpEaRc4Jk2bAk",
+        "address": "Ho Chi Minh, Da Nang, Ha Noi",
+        "people": "51-150",
+        "country": "United States",
+        "day": "Monday - Friday",
+        "OT": "No OT",
+        "title": "Vietnam's first and purest agile software development firm",
+        "description": [
+            "You will work directly with innovative Internet companies, ranging from industry leaders and newly minted Unicorns to Silicon Valley startups. As a member of the East Agile team, you will work with innovative business models and the latest technologies. Our customers include famous companies like Samsung, Twitter and Indiegogo as well as stealthy innovators. You will build your personal network by working directly with world class CEOs, co-founders and engineering leads.",
+       "East Agile Vietnam a leader in a wide range of technologies, platforms and languages. These include nodeJS, Python, Ruby, Javascript, Java, iOS, Android, blockchain, machine learning (ML) and artificial intelligence (AI). East Agile Vietnam is part of the global East Agile enterprise that began in 1997 in the USA and spans Hong Kong, Vietnam, and California."
+        ],
+        "skills": [
+            "Python", "Ruby on Rails","iOS","Agile", "Android"
+        ],
+        "reasons":[
+            "Best agile environment",
+            "Talented developers",
+            "High salary with HR review every 4 months"
+        ] ,
+        "benefits": [
+            "ability to transfer between our offices in Ha Noi, Ho Chi Minh City, and Da Nang",
+            "15 days annual leave",
+            "excellent health insurance",
+            "a 40-hour regular work week with little or no after-hours work requirements",
+            "end-of-year Tet bonus",
+            "a fun and flexible working environment in a modern office",
+            "free office lunch & breakfast"
+        ],
+        "location":"https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d7838.827110677872!2d106.66334500000002!3d10.779604!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31752ec5434d4b37%3A0xbd2886b0a4b95715!2zMTYgVGFtIMSQ4bqjbywgUGjGsOG7nW5nIDE1LCBRdeG6rW4gMTAsIEjhu5MgQ2jDrSBNaW5oLCBWaeG7h3QgTmFt!5e0!3m2!1svi!2sus!4v1580872259325!5m2!1svi!2sus",
+        "rating": 4.3 
+    },
+    {
+        "id": 3,
+        "company": "Grab (Vietnam) Ltd",
+        "quote":"Career path rõ ràng, có thể học hỏi nhiều thứ, làm việc nhiều với Seattle và Singapore Công ty sẽ cố gắng không để bạn làm OT, OT được trả hợp lý.",
+        "logo": "https://cdn.itviec.com/employers/grab-vietnam-ltd/logo/w170/Kgcq3xkoDLLi2YsaGtTr5SJo/grab-vietnam-ltd-logo.PNG",
+        "banner": "https://cdn.itviec.com/photos/380/processed_headline_photo/grab-vietnam-ltd-headline_photo.PNG?1oCxXM3NMbqAvHhZCEJ4JnbB",
+        "address": "District 7, Ho Chi Minh",
+        "people": "501-1000",
+        "country": "Malaysia",
+        "day": "Monday - Friday",
+        "OT": "No OT",
+        "title": "JOIN US ON MISSION INCREDIBLE",
+        "description":[
+            "Get to know Grab:",
+"Grab is more than just the leading ride-hailing and mobile payments platform in Southeast Asia. We use data and technology to improve everything from transportation to payments and financial services across a region of more than 620 million people. We work with Working with governments, drivers, passengers, merchants, and the community, to solve critical problems in Southeast Asia.",
+"Grab began as a taxi-hailing app in 2012, but we have since extended our product platform to include GrabCar, GrabShare, GrabBike, GrabHitch, GrabExpress, GrabFood, GrabCoach, GrabShuttle, GrabCycle.",
+"Grab Vietnam R&D Lab:",
+"We focus on building and nurturing the best engineering talents from diverse academic backgrounds and industry experiences to strategize and execute high profile projects through data-driven methodologies."
+        ],
+        "skills": [
+            "Java", "ReactJS", "Golang", "Javascript", "Android","iOS"
+        ],
+        "reasons": [
+            "At least 15 months pay & attractive allowance",
+            "Huge system - billion of data",
+            "Working with world-class engineers"
+        ],
+        "benefits": [
+            "Macbook is provided.",
+"Extra Medical Insurance.",
+"14 days annual leaves, working Monday - Friday.",
+"Free drive with Grab (budget follow your level)"
+        ],
+        "location":"https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d7840.122899152473!2d106.702163!3d10.729744!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xfe19ba1b6b8e824c!2sMapletree%20Business%20Centre!5e0!3m2!1svi!2sus!4v1580872802991!5m2!1svi!2sus",
+        "rating": 4.7
+    },
+    {
+        "id": 4,
+        "company": "mgm technology partners Vietnam",
+        "quote": "Kỹ năng tiếng Anh phải nói là tăng vèo vèo khi công ty offer 1 khóa học tiếng Anh với người bản ngữ trong vòng 3 tháng đầu tiên (học nửa buổi, làm nửa buổi), và sau đó là các buổi seminar tiếng Anh. Ngoài ra thì có nhiều đồng nghiệp nước...",
+        "logo": "https://cdn.itviec.com/employers/mgm-technology-partners-vietnam/logo/w170/8G6KY8J1s2Xrx8mCAVADn9va/mgm-technology-partners-vietnam-logo.png",
+        "banner": "https://cdn.itviec.com/photos/34468/processed_headline_photo/mgm-technology-partners-vietnam-headline_photo.jpg?FXa7KnoSevy8d4oovRoE3e3z",
+        "address": "Ho Chi Minh, Da Nang",
+        "people": "151-300",
+        "country": "Germany",
+        "day": "Monday - Friday",
+        "OT": "No OT",
+        "title": "mgm - Software Engineers to the bones. We code for Fortune 100 customers and have fun while doing so",
+        "description":[
+            "If you share our passion for software development – mgm is just right for you: mgm in a nutshell:",
+"Great Team: More than 700 colleagues working in an environment with flat hierarchies and endless learning opportunities.",
+"Exciting Projects: We build enterprise software in different teams (5-30 members) reaching from agile to long-term projects.",
+"Innovative Technologies: Java, JEE, Spring, React, TypeScript and many more...",
+"mgm’s software solutions: mgm A12 (architecture and tools for model driven software development) and mgm Cosmo (insurance solution).",
+"our website: https://www.mgm-tp.com/en/"
+        ],
+        "skills": [
+            "HTML5", "CSS", "Java", "SQL", "Javascript", "ReactJS"
+        ],
+        "reasons": [
+            "We truly value your thoughts and opinions",
+            "Global and professional",
+            "Honest, Transparent, Open-minded, Respect"
+        ],
+        "benefits": ["Laptop is provided.",
+            "A fun & dynamic environment and freedom to be creative.",
+            "Rock in open-mind, kind & humble band.",
+            "Modern office with the flexible relaxing zone.",
+            "Company trip, team building & other community Tech activities.",
+            "Year-end bonus, Loyalty bonus (up to 45,000$).",
+            "Performance review  2 times/ year."
+        ],  
+        "location":"https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d7838.868211558753!2d106.702042!3d10.778026!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31752f47d87887ab%3A0x7f406e1f2abd3c53!2zVmluY29tIEIsIDcyIEzDqiBUaMOhbmggVMO0biwgQuG6v24gTmdow6ksIFF14bqtbiAxLCBI4buTIENow60gTWluaCwgVmnhu4d0IE5hbQ!5e0!3m2!1svi!2sus!4v1580868392526!5m2!1svi!2sus",
+        "rating": 4.7
+    },
+    {
+        "id": 5,
+        "company": "Knorex",
+        "quote":"Partner siêu tốt, sếp tốt biết lắng nghe và chia sẻ. Leader biết cách hướng dẫn để hoạt động như 1 team. Công ty hầu như không có OT, nên hài lòng.",
+        "logo": "https://cdn.itviec.com/employers/bocasay/logo/w170/4QrC4cCjzmMTfyrw4xhEEHT3/bocasay-logo.pnghttps://cdn.itviec.com/employers/knorex/logo/w170/E8Q7yKbHTLKH2oPoDGK1xHjt/Knorex%20New%20Logo%202019_Vertical_Colour_Black.png",
+        "banner": "https://cdn.itviec.com/photos/43076/headline_photo/knorex-headline_photo.jpg?sXpnvKgAr2sLV5VSXWReVSfA",
+        "address": " District 1, Ho Chi Minh",
+        "people": "51-150",
+        "country": "Singapore",
+        "day": "Monday - Friday",
+        "OT": "No OT",
+        "title": "Knorex is a leading provider of Precision Performance Marketing technologies and solutions",
+        "description":"Established in 2010, with offices across US and APAC, Knorex provides programmatic advertising products and technologies to advertising buyers worldwide. With its cross-channel marketing cloud platform, Knorex XPO™ enables ad buyers to self-serve and advertise real-time across the globe regardless of the media channels (social, search, OTT/CTV, video, web/mobile etc.), ad formats (display, native, search, social, video etc) and devices (desktop, laptop, smartphones and tablets) to deliver personalized marketing messages to the target audience in an automated way, powered by machine learning/AI. Underpinned by a multi-layered data-driven approach, XPO simplifies the execution and optimization of marketing campaigns, while delivering measurable and attributable performance. Join Knorex’s diverse teams where you work with some of the best and the brightest to solve customers’ challenges and deliver to them solutions.  ",
+        "skills": ["Python", "Java", "ReactJS", "Javascript","Angular", "NodeJS"],
+        "reasons": [
+            "Project and working atmosphere",
+"Possibility to work abroad",
+"Many salary supplements and benefits are available"
+        ],
+        "benefits": [
+            "Exceptional talents will be matched with an exceptional salary",
+"Young & Friendly working environment",
+"Encourage people to be lead & push new ideas forward in our small teams",
+"Social/Health/Unemployment Insurances are fully levied on the salary",
+"15 days of annual leave",
+"Salary review: 2 times/year",
+"13th salary is paid before the Lunar New Year",
+"PVI Healthcare Insurance",
+"On-boarding program (opportunities to work abroad after 2 years)"
+        ],
+        "location":"https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d7838.266159912121!2d106.68258500000002!3d10.801118!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x3d2d2959024b9b41!2zTmfDoyB0xrAgUGhhbiBYw61jaCBMb25n!5e0!3m2!1svi!2sus!4v1580871621993!5m2!1svi!2sus",
+        "rating": 4.6
+    },
+    {
+        "id": 6,
+        "company": "Nexus Frontier Tech",
+        "quote":"Môi trường thoải mái, có thể làm remotely. trình độ chuyên môn tốt, có nhiều cái đáng để học hỏi cho những bạn ở mức độ dưới senior.",
+        "logo": "https://cdn.itviec.com/employers/nexus-frontier-tech/logo/w170/fKptC3osrK5v8exU41Q3M7CZ/nexus-frontier-tech-logo.png",
+        "banner": "https://cdn.itviec.com/photos/35775/processed_headline_photo/nexus-frontier-tech-headline_photo.jpg?6cCsZDr2hKrz8WoJ1D9xrxjx",
+        "address": "Thanh Xuan, Ha Noi",
+        "people": "51-150",
+        "country": "United Kingdom",
+        "day": "Monday - Friday",
+        "OT": "No OT",
+        "title": "In 2018, we decided to change our brand's name from Innovatube Solutions to Nexus Frontier Tech",
+        "description": [
+            "Besides our consulting services for digitalization & software development, we're offering an AIaaS platform, Podder.ai. Podder.ai is a technology platform turning AI (ML/DL) models into production-scale applications that stakeholders can use with ease. Thanks to Podder.ai, we will be able to make AI accessible and applicable in the business world's everyday operations.",
+"As for our community-building mission, we now aim to hold events and courses to foster talents not just in AI, but other forms of deep technology such as IoT and Blockchain.",
+"We are in need of talent who are interested in our consulting services & software development and believe in the future of AI democratisation."
+        ],
+        "skills": [
+            "PHP", "ReactJS","Team Leader","Project Manager"
+        ],
+        "reasons":[
+            "Best agile environment",
+            "Talented developers",
+            "High salary with HR review every 4 months"
+        ] ,
+        "benefits": [
+            "ability to transfer between our offices in Ha Noi, Ho Chi Minh City, and Da Nang",
+            "15 days annual leave",
+            "excellent health insurance",
+            "a 40-hour regular work week with little or no after-hours work requirements",
+            "end-of-year Tet bonus",
+            "a fun and flexible working environment in a modern office",
+            "free office lunch & breakfast"
+        ],
+        "location":"https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d7838.827110677872!2d106.66334500000002!3d10.779604!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31752ec5434d4b37%3A0xbd2886b0a4b95715!2zMTYgVGFtIMSQ4bqjbywgUGjGsOG7nW5nIDE1LCBRdeG6rW4gMTAsIEjhu5MgQ2jDrSBNaW5oLCBWaeG7h3QgTmFt!5e0!3m2!1svi!2sus!4v1580872259325!5m2!1svi!2sus",
+        "rating": 4.6 
+    },
+    {
+        "id": 7,
+        "company": "ZALORA Group",
+        "quote":"99% sử dụng Macbook cho công việc. Được update bản thân với những khóa học của Udemy, luôn tiếp cận với những công nghệ mới nhất. Mọi người đều vui vẻ hòa đồng, ăn chơi làm đều 100%. Có PS4 chơi hàng ngày, đá banh mini hàng tuần.",
+        "logo": "https://cdn.itviec.com/employers/zalora-group/logo/w170/iWEscWqmrWxAuuqC6jksj6NF/zalora-group-logo.jpg",
+        "banner": "https://cdn.itviec.com/photos/1303/processed_headline_photo/zalora-group-headline_photo.jpg?V1cAdiaRuw2c5Swo4dT7A7z6",
+        "address": "District 4, Ho Chi Minh",
+        "people": "301-500",
+        "country": "Singapore",
+        "day": "Monday - Friday",
+        "OT": "No OT",
+        "title": "ZALORA Group is Asia Pacific’s leading group of online fashion destinations.",
+        "description":[
+            "Founded in 2012, the company has a presence in Singapore, Indonesia, Malaysia & Brunei, the Philippines, Hong Kong and Taiwan. ZALORA is part of Global Fashion Group, the world's leader in online fashion for emerging markets.",
+            "ZALORA's e-commerce platform is built with love by the engineering team. The Ho Chi Minh office, 12 Ton Dan, D4 (ZALORA Group) focuses completely on engineering and sets a high standard for software development in the field of e-commerce. This team creates the tech stack that powers ZALORA's stellar shopping experience. This ranges from the online shop and the mobile apps to ZALORA's complex logistics solutions."
+        ],
+        "skills": [
+            "Java", "Python", "PHP", "Javascript", "Android"
+        ],
+        "reasons": [
+            "At least 15 months pay & attractive allowance",
+            "Huge system - billion of data",
+            "Working with world-class engineers"
+        ],
+        "benefits": [
+            "Macbook is provided.",
+"Extra Medical Insurance.",
+"14 days annual leaves, working Monday - Friday.",
+"Free drive with Grab (budget follow your level)"
+        ],
+        "location":"https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d7840.122899152473!2d106.702163!3d10.729744!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xfe19ba1b6b8e824c!2sMapletree%20Business%20Centre!5e0!3m2!1svi!2sus!4v1580872802991!5m2!1svi!2sus",
+        "rating": 4.7
+    },
+    {
+        "id": 8,
+        "company": "Cinnamon AI Labs",
+        "quote":"Được trang bị máy cá nhân cho công việc. Việc tự sắp xếp để hoàn thành. Sếp không quản lý chi li. Có OT nhưng không thường xuyên, mọi người vui vẻ làm việc.",
+        "logo": "https://cdn.itviec.com/employers/cinnamon-ai-labs/logo/w170/m6FBz8yNDTTKThJfQXk4byaK/cinnamon-ai-labs-logo.png",
+        "banner": "https://cdn.itviec.com/photos/34187/processed_headline_photo/cinnamon-ai-labs-headline_photo.jpg?eCv2Dvtp9aR65s3q7nsNQDHb",
+        "address": "Ho Chi Minh, Ha Noi, Da Nang",
+        "people": "151-300",
+        "country": "Japan",
+        "day": "Monday - Friday",
+        "OT": "No OT",
+        "title": "The pioneer company in designing Business Processing Re-Engineering using AI technology.",
+        "description":[
+            "Cinnamon is the pioneer in consulting and designing innovative solutions using Deep Learning backed AI products. Cinnamon continues to enhance the core technologies of the AI platforms and build AI products to drive Business Process Re-engineering of large corporations.", 
+"By releasing our core products Flax Scanner and Rossa Voice, we’re creating a new generation of business automation which will disrupt multiple industries in the near future.",
+"Cinnamon’s business is rapidly growing after releasing our products on February 2017, we have raised 15 million USD for Series B in January 2019 as well as exposed to global media. Besides, Cinnamon also focuses on building a strong human resource foundation. Until 2019, there are 70 AI talents working in Cinnamon and about 75% of them has graduated Master or PhD at international universities (France, Australia, Swiss, Japan, Korea...)."
+        ],
+        "skills": [
+            "Agile", "Python", "Algorithm", "Software Architect", "C++"
+        ],
+        "reasons": [
+            "At least 15 months pay & attractive allowance",
+            "Huge system - billion of data",
+            "Working with world-class engineers"
+        ],
+        "benefits": [
+            "Macbook is provided.",
+"Extra Medical Insurance.",
+"14 days annual leaves, working Monday - Friday.",
+"Free drive with Grab (budget follow your level)"
+        ],
+        "location":"https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d7840.122899152473!2d106.702163!3d10.729744!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xfe19ba1b6b8e824c!2sMapletree%20Business%20Centre!5e0!3m2!1svi!2sus!4v1580872802991!5m2!1svi!2sus",
+        "rating": 4.7
+    },{
+        "id": 9,
+        "company": "Techbase Vietnam",
+        "quote":"Cty đẹp, làm việc cảm giác thoải mái. Cty có cái view ngàn đô, ngồi nhìn view đó sáng hay tối đều đẹp. Cơ sở vật chất cty hiện đại, từ làm việc tới event hay vui chơi giải trí đều có đủ. Công việc thì có quy trình đàng hoàng, leader, PM...",
+        "logo": "https://cdn.itviec.com/employers/zalora-group/logo/w170/iWEscWqmrWxAuuqC6jksj6NF/zalora-group-logo.jpg",
+        "banner": "https://cdn.itviec.com/photos/1303/processed_headline_photo/zalora-group-headline_photo.jpg?V1cAdiaRuw2c5Swo4dT7A7z6",
+        "address": "District 1, Ho Chi Minh",
+        "people": "51-150",
+        "country": "Japan",
+        "day": "Monday - Friday",
+        "OT": "No OT",
+        "title": "TECHBASE VIETNAM",
+        "description":[
+            "TECHBASE VIETNAM, a Japanese company 100% invested by Yahoo! JAPAN CORPORATION – the biggest portal site in Japan, was established in May 2015 and located in Saigon Centre.",
+"We have over 140 members now. To expand our business in Vietnam, we are looking for many developers major in Java, PHP, NodeJS, React, Angular, Android, IOS,… with skills and experience to develop our E-Commerce and Media Service such as Yahoo! Shopping, Yahoo! Auction, Yahoo! Finance, Yahoo! Weather etc.",
+"You will be developing software products, implementing new features or improving existing ones.",
+"We believe this is a great opportunity for you to improve your skills and know-how, as well as being a part of a growing team to create a unique product that would make a dramatic impact on the company's growth."
+        ],
+        "skills": [
+            "NodeJS", "Java", "PHP", "iOS", "Android"
+        ],
+        "reasons": [
+            "At least 15 months pay & attractive allowance",
+            "Huge system - billion of data",
+            "Working with world-class engineers"
+        ],
+        "benefits": [
+            "Macbook is provided.",
+"Extra Medical Insurance.",
+"14 days annual leaves, working Monday - Friday.",
+"Free drive with Grab (budget follow your level)"
+        ],
+        "location":"https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d7840.122899152473!2d106.702163!3d10.729744!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xfe19ba1b6b8e824c!2sMapletree%20Business%20Centre!5e0!3m2!1svi!2sus!4v1580872802991!5m2!1svi!2sus",
+        "rating": 4.3
+    }
+]

@@ -2,7 +2,6 @@ import React from "react";
 import { Box, Typography, Button } from "@material-ui/core";
 import { makeStyles } from "@material-ui/core/styles";
 import { Link } from "react-router-dom";
-import Jobdetail from "../Jobdetail";
 const useStyles = makeStyles(theme => ({
   margin: {
     margin: theme.spacing(1)
@@ -30,24 +29,20 @@ export default function Job(props) {
         <Button>
           <Link to={`job/${id}`}>See into view</Link>
         </Button>
-        {/* <Link to={`job/${id}`}>
-            <Typography>See into view</Typography>
-            
-          </Link> */}
         <Box>
-          {/* <Typography variant="p">{description[0]}</Typography>
-            <div>
-              {field.map(f => (
-                <Button
-                  variant="outlined"
-                  size="small"
-                  color="primary"
-                  className={classes.margin}
-                >
-                  {f}
-                </Button>
-              ))}
-            </div> */}
+          <Typography variant="p">{description[0]}</Typography>
+          <div>
+            {field.map(f => (
+              <Button
+                variant="outlined"
+                size="small"
+                color="primary"
+                className={classes.margin}
+              >
+                {f}
+              </Button>
+            ))}
+          </div>
         </Box>
       </Box>
     </Box>

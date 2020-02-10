@@ -6,9 +6,9 @@ import {
   CardActions,
   Typography,
   CardContent,
-  Button,
   Grid
 } from "@material-ui/core";
+import { Link } from "react-router-dom";
 import Rating from "@material-ui/lab/Rating";
 const useStyles = makeStyles({
   root: {
@@ -17,6 +17,13 @@ const useStyles = makeStyles({
   media: {
     "& img": {
       objectFit: "none"
+    }
+  },
+  text: {
+    textAlign: "left",
+    "& a": {
+      color: "black",
+      textDecoration: "unset"
     }
   }
 });
@@ -27,8 +34,10 @@ export default function Company(props) {
   return (
     <Grid container spacing={1} className={classes.root}>
       <Grid item xs={4}>
-        <Typography gutterBottom variant="h5">
-          #{id} {company}
+        <Typography gutterBottom variant="h5" className={classes.text}>
+          <Link to={`company/${id}`}>
+            #{id} {company}
+          </Link>
         </Typography>
         <CardActionArea className={classes.media}>
           <CardMedia

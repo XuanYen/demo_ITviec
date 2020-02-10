@@ -21,6 +21,7 @@ import ScheduleIcon from "@material-ui/icons/Schedule";
 import DateRangeIcon from "@material-ui/icons/DateRange";
 import MonetizationOnRoundedIcon from "@material-ui/icons/MonetizationOnRounded";
 import LocationOnRoundedIcon from "@material-ui/icons/LocationOnRounded";
+import ChevronRightRoundedIcon from "@material-ui/icons/ChevronRightRounded";
 const styles = {
   box: {
     margin: "5rem 5rem"
@@ -30,15 +31,15 @@ const styles = {
     "& img": {
       objectFit: "none"
     }
+  },
+  apply: {
+    width: "100%"
   }
 };
 class Jobdetail extends React.Component {
   state = {
     job: {},
-    loading: true,
-    icon: {
-      item: []
-    }
+    loading: true
   };
   componentDidMount() {
     axios
@@ -55,7 +56,6 @@ class Jobdetail extends React.Component {
 
   render() {
     const {
-      id,
       title,
       logo,
       field,
@@ -67,6 +67,7 @@ class Jobdetail extends React.Component {
       address,
       reason,
       description,
+      skill,
       why
     } = this.state.job;
     return (
@@ -135,16 +136,93 @@ class Jobdetail extends React.Component {
                 </Card>
               </Grid>
               <Grid item xs={8}>
-                <Typography variant="h5">{title}</Typography>
                 <Box>
-                  {field.map(f => {
-                    return <Button variant="outlined">{f}</Button>;
-                  })}
+                  <Typography variant="h5">{title}</Typography>
+                  <Box>
+                    {field.map(f => {
+                      return <Button variant="outlined">{f}</Button>;
+                    })}
+                  </Box>
+                  <ListItem>
+                    <ListItemIcon>
+                      <MonetizationOnRoundedIcon />
+                    </ListItemIcon>
+                    <ListItemText>Sign in to view salary</ListItemText>
+                  </ListItem>
+                  <ListItem>
+                    <ListItemIcon>
+                      <LocationOnRoundedIcon />
+                    </ListItemIcon>
+                    <ListItemText>{address}</ListItemText>
+                  </ListItem>
+                  <Button
+                    variant="contained"
+                    color="secondary"
+                    className={this.props.classes.apply}
+                  >
+                    Apply Now
+                  </Button>
                 </Box>
-                <MonetizationOnRoundedIcon>
-                  Sign in to view salary
-                </MonetizationOnRoundedIcon>
-                <LocationOnRoundedIcon>{address}</LocationOnRoundedIcon>
+                <Box>
+                  <Box>
+                    <Typography variant="h5">
+                      Top 3 Reasons To Join Us
+                    </Typography>
+                    {reason.map(r => {
+                      return (
+                        <ListItem>
+                          <ListItemIcon>
+                            <ChevronRightRoundedIcon fontSize="small" />
+                          </ListItemIcon>
+                          <ListItemText>{r}</ListItemText>
+                        </ListItem>
+                      );
+                    })}
+                  </Box>
+                  <Box>
+                    <Typography variant="h5">The Job description</Typography>
+                    {description.map(describe => {
+                      return (
+                        <ListItem>
+                          <ListItemIcon>
+                            <ChevronRightRoundedIcon fontSize="small" />
+                          </ListItemIcon>
+                          <ListItemText>{describe}</ListItemText>
+                        </ListItem>
+                      );
+                    })}
+                  </Box>
+                  <Box>
+                    <Typography variant="h5">
+                      Your Skills and Experience
+                    </Typography>
+                    {skill.map(s => {
+                      return (
+                        <ListItem>
+                          <ListItemIcon>
+                            <ChevronRightRoundedIcon fontSize="small" />
+                          </ListItemIcon>
+                          <ListItemText>{s}</ListItemText>
+                        </ListItem>
+                      );
+                    })}
+                  </Box>
+                  <Box>
+                    <Typography variant="h5">
+                      Why You'll Love Working Here
+                    </Typography>
+                    {why.map(w => {
+                      return (
+                        <ListItem>
+                          <ListItemIcon>
+                            <ChevronRightRoundedIcon fontSize="small" />
+                          </ListItemIcon>
+                          <ListItemText>{w}</ListItemText>
+                        </ListItem>
+                      );
+                    })}
+                  </Box>
+                </Box>
               </Grid>
             </Grid>
           </Box>

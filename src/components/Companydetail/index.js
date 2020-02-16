@@ -6,7 +6,6 @@ import PeopleIcon from "@material-ui/icons/People";
 import EditLocationIcon from "@material-ui/icons/EditLocation";
 import ScheduleIcon from "@material-ui/icons/Schedule";
 import DateRangeIcon from "@material-ui/icons/DateRange";
-import MonetizationOnRoundedIcon from "@material-ui/icons/MonetizationOnRounded";
 import LocationOnRoundedIcon from "@material-ui/icons/LocationOnRounded";
 import ChevronRightRoundedIcon from "@material-ui/icons/ChevronRightRounded";
 import {
@@ -240,7 +239,7 @@ class Companydetail extends React.Component {
                       />
                     </Box>
                   </TabPanel>
-                  <TabPanel>Tab2</TabPanel>
+                  <TabPanel>No reviews</TabPanel>
                 </Tabs>
               }
             </Box>

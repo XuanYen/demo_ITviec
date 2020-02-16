@@ -6,26 +6,36 @@ import Blogs from "./components/Blogs";
 import Signin from "./components/Signin";
 import Employers from "./components/Employers";
 import Footers from "./components/Footers";
-import Jobdetail from "./components/Jobdetail";
+import Postjob from "./components/Postjob";
+import Jobdetails from "./components/Jobdetails";
 import { BrowserRouter, Route } from "react-router-dom";
 import "./App.css";
 import Companydetail from "./components/Companydetail";
+import { createStore } from "redux";
+import { Provider } from "react-redux";
+import rootReducer from "./reducers";
+import actions from "./actions";
+let store = createStore(
+  rootReducer,
+  window.__REDUX_DEVTOOLS_EXTENSION__ && window.__REDUX_DEVTOOLS_EXTENSION__()
+);
 
-function App() {
+export default function App() {
   return (
     <BrowserRouter>
-      <div className="App">
-        <Navbar />
-        <Route exact path="/jobs" component={Jobs} />
-        <Route path="/job/:idjob" component={Jobdetail} />
-        <Route path="/companies" component={Companies} />
-        <Route path="/company/:idcompany" component={Companydetail} />
-        <Route path="/blogs" component={Blogs} />
-        <Route path="/signin" component={Signin} />
-        <Route path="/employers" component={Employers} />
-      </div>
+      <Provider store={store}>
+        <div className="App">
+          <Navbar />
+          <Route exact path="/jobs" component={Jobs} />
+          <Route exact path="/postjob" component={Postjob} />
+          <Route path="/job/:idjob" component={Jobdetails} />
+          <Route path="/companies" component={Companies} />
+          <Route path="/company/:idcompany" component={Companydetail} />
+          <Route path="/blogs" component={Blogs} />
+          <Route path="/signin" component={Signin} />
+          <Route path="/employers" component={Employers} />
+        </div>
+      </Provider>
     </BrowserRouter>
   );
 }
-
-export default App;

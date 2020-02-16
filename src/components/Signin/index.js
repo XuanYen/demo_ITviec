@@ -3,7 +3,9 @@ import { Tab, Tabs, TabList, TabPanel } from "react-tabs";
 import "react-tabs/style/react-tabs.css";
 import { Box, Button, withStyles } from "@material-ui/core";
 import TextField from "@material-ui/core/TextField";
-import Navbar from "../Navbar";
+import { connect } from "react-redux";
+import compose from "recompose/compose";
+import * as actions from "../../actions";
 const emailRegex = RegExp(
   /^[a-zA-Z0-9_!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/
 );
@@ -44,7 +46,7 @@ class Signin extends React.Component {
     } else if (this.state.password.trim() == "") {
       alert("Password Null. Password must be fill");
     } else {
-      alert("Sucessfully");
+      alert("Register sucessfully");
     }
   };
   handleSignIn = event => {
@@ -61,8 +63,8 @@ class Signin extends React.Component {
     } else if (this.state.pass != this.state.password) {
       alert("Failed password account");
     } else {
-      alert("Sign in successfully");
-      this.state.issignin = true;
+      alert("Succesfully");
+      this.props.changeStatus();
     }
   };
 
@@ -156,4 +158,14 @@ class Signin extends React.Component {
     );
   }
 }
-export default withStyles(styles)(Signin);
+
+const mapDispatchToProps = dispatch => {
+  return {
+    changeStatus: () => dispatch(actions.status())
+  };
+};
+
+export default compose(
+  withStyles(styles, { name: "Signin" }),
+  connect(null, mapDispatchToProps)
+)(Signin);

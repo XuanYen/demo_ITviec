@@ -41,7 +41,7 @@ class Footer extends React.Component {
             <Grid item xs={3}>
               <Typography variant="h6">Việc làm IT theo kỹ năng</Typography>
               <Box>
-                {this.state.skills.map(skill => {
+                {skills.map(skill => {
                   return (
                     <Typography>
                       <Link component="a">{skill}</Link>
@@ -53,7 +53,7 @@ class Footer extends React.Component {
             <Grid item xs={3}>
               <Typography variant="h6">Việc làm IT theo cấp bậc</Typography>
               <Box>
-                {this.state.levels.map(level => {
+                {levels.map(level => {
                   return (
                     <Typography>
                       <Link variant="body1">{level}</Link>
@@ -65,7 +65,7 @@ class Footer extends React.Component {
             <Grid item xs={3}>
               <Typography variant="h6">Việc làm IT theo công ty</Typography>
               <Box>
-                {this.state.companies.map(company => {
+                {companies.map(company => {
                   return (
                     <Typography>
                       <Link variant="body1">{company}</Link>
@@ -77,7 +77,7 @@ class Footer extends React.Component {
             <Grid item xs={3}>
               <Typography variant="h6">Việc làm IT theo thành phố</Typography>
               <Box>
-                {this.state.cities.map(city => {
+                {cities.map(city => {
                   return (
                     <Typography>
                       <Link variant="body1">{city}</Link>
@@ -89,11 +89,11 @@ class Footer extends React.Component {
           </Grid>
         </Box>
         <Box className={this.props.classes.box2}>
-          <Typography size="medium">{this.state.post}</Typography>
+          <Typography size="medium">{post}</Typography>
           <Grid container direction="row">
             <Grid item xs={3}>
               <Box>
-                {this.state.pages.map(page => {
+                {pages.map(page => {
                   return (
                     <Typography>
                       <Link component="a">{page}</Link>
@@ -104,7 +104,7 @@ class Footer extends React.Component {
             </Grid>
             <Grid item xs={3}>
               <Box>
-                {this.state.rules.map(rule => {
+                {rules.map(rule => {
                   return (
                     <Typography>
                       <Link variant="body1">{rule}</Link>
@@ -115,7 +115,7 @@ class Footer extends React.Component {
             </Grid>
             <Grid item xs={3}>
               <Box>
-                {this.state.contact.map(ctact => {
+                {contact.map(ctact => {
                   return (
                     <Typography>
                       <Link variant="body1">{ctact}</Link>

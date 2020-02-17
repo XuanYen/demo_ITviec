@@ -21,6 +21,15 @@ export const jobdetail = id => {
     id
   };
 };
+export const filtercountry = country => {
+  return {
+    type: types.FILTER_COUNTRY,
+    country
+  };
+};
 export const filterfield = field => {
-  return {};
+  return {
+    type: types.FILTER_FIELD,
+    field
+  };
 };

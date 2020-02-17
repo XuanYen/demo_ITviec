@@ -14,7 +14,7 @@ import Companydetail from "./components/Companydetail";
 import { createStore } from "redux";
 import { Provider } from "react-redux";
 import rootReducer from "./reducers";
-import actions from "./actions";
+import Home from "./components/Home";
 let store = createStore(
   rootReducer,
   window.__REDUX_DEVTOOLS_EXTENSION__ && window.__REDUX_DEVTOOLS_EXTENSION__()
@@ -26,6 +26,7 @@ export default function App() {
       <Provider store={store}>
         <div className="App">
           <Navbar />
+          <Route exact path="/" component={Home} />
           <Route exact path="/jobs" component={Jobs} />
           <Route exact path="/postjob" component={Postjob} />
           <Route path="/job/:idjob" component={Jobdetails} />
@@ -34,6 +35,7 @@ export default function App() {
           <Route path="/blogs" component={Blogs} />
           <Route path="/signin" component={Signin} />
           <Route path="/employers" component={Employers} />
+          <Footers />
         </div>
       </Provider>
     </BrowserRouter>

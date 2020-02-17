@@ -9,11 +9,10 @@ import compose from "recompose/compose";
 import List from "@material-ui/core/List";
 import ListItem from "@material-ui/core/ListItem";
 import ListItemIcon from "@material-ui/core/ListItemIcon";
-import ListItemText from "@material-ui/core/ListItemText";
 import HomeIcon from "@material-ui/icons/Home";
 import BorderColorIcon from "@material-ui/icons/BorderColor";
-import ArrowUpwardIcon from "@material-ui/icons/ArrowUpward";
-import ArrowDownwardIcon from "@material-ui/icons/ArrowDownward";
+import TextField from "@material-ui/core/TextField";
+import * as actions from "../../actions";
 const styles = {
   root: {
     margin: "5rem 0rem"
@@ -49,6 +48,19 @@ class Jobs extends React.Component {
         console.log(err);
       });
   }*/
+  handleSubmit = event => {
+    event.preventDefault();
+    this.props.onfiltercountry(this.state);
+    this.props.onfilterfield(this.state);
+  };
+  handleChange = event => {
+    const target = event.target;
+    const value = target.type === "checkbox" ? target.checked : target.value;
+    const name = target.name;
+    this.setState({
+      [name]: value
+    });
+  };
   render() {
     return (
       <Grid
@@ -92,30 +104,37 @@ class Jobs extends React.Component {
             className={this.props.classes.list}
             aria-label="contacts"
           >
-            <ListItem button>
-              <ListItemIcon>
-                <HomeIcon />
-              </ListItemIcon>
-              <ListItemText primary="By Company" />
-            </ListItem>
-            <ListItem button>
-              <ListItemIcon>
-                <BorderColorIcon />
-              </ListItemIcon>
-              <ListItemText primary="By field" />
-            </ListItem>
-            <ListItem button>
-              <ListItemIcon>
-                <ArrowUpwardIcon />
-              </ListItemIcon>
-              <ListItemText primary="By increasing ID" />
-            </ListItem>
-            <ListItem button>
-              <ListItemIcon>
-                <ArrowDownwardIcon />
-              </ListItemIcon>
-              <ListItemText primary="By decreasing ID" />
-            </ListItem>
+            <form
+              className={this.props.classes.root}
+              noValidate
+              autoComplete="off"
+            >
+              <ListItem button>
+                <ListItemIcon>
+                  <HomeIcon />
+                </ListItemIcon>
+                <TextField
+                  id="standard-basic"
+                  label="By field"
+                  name="field"
+                  onChange={this.handleChange}
+                />
+              </ListItem>
+              <ListItem button>
+                <ListItemIcon>
+                  <BorderColorIcon />
+                </ListItemIcon>
+                <TextField
+                  id="standard-basic"
+                  label="By country"
+                  name="country"
+                  onChange={this.handleChange}
+                />
+              </ListItem>
+              <Button type="submit" onSubmit={this.handleSubmit}>
+                Submit
+              </Button>
+            </form>
           </List>
         </Grid>
       </Grid>
@@ -127,7 +146,14 @@ const mapStateToProps = state => {
     jobs: state.jobs
   };
 };
+const mapDispatchToProps = dispatch => {
+  return {
+    onfiltercountry: country => dispatch(actions.filtercountry(country)),
+    onfilterfield: field => dispatch(actions.filterfield(field))
+  };
+};
+
 export default compose(
   withStyles(styles, { name: "Jobs" }),
-  connect(mapStateToProps, null)
+  connect(mapStateToProps, mapDispatchToProps)
 )(Jobs);

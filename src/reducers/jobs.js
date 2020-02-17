@@ -227,6 +227,17 @@ var rootReducer = (state = jobs, action) => {
       newstate = state.filter(ele => ele.id == action.id);
       state = newstate;
       return state;
+    case types.FILTER_COUNTRY:
+      var newstate = [];
+      newstate = state.filter(ele => ele.country == action.country);
+      state = newstate;
+      return state;
+    case types.FILTER_FIELD:
+      for (var i = 0; i < state.length; i++) {
+        if (state[i].field.findIndex(ele => ele == action.field) != -1)
+          return state;
+      }
+      return state;
     default:
       return state;
   }

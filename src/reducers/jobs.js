@@ -233,10 +233,10 @@ var rootReducer = (state = jobs, action) => {
       state = newstate;
       return state;
     case types.FILTER_FIELD:
-      for (var i = 0; i < state.length; i++) {
-        if (state[i].field.findIndex(ele => ele == action.field) != -1)
-          return state;
-      }
+      var newstate = [];
+      newstate = state.filter(ele => ele.field.indexOf(action.field) != -1);
+      state = newstate;
+
       return state;
     default:
       return state;

@@ -15,7 +15,7 @@ import TextField from "@material-ui/core/TextField";
 import * as actions from "../../actions";
 const styles = {
   root: {
-    margin: "5rem 0rem"
+    margin: "2rem 0rem"
   },
   post: {
     textDecoration: "none",
@@ -48,10 +48,13 @@ class Jobs extends React.Component {
         console.log(err);
       });
   }*/
-  handleSubmit = event => {
+  handleSubmitfield = event => {
     event.preventDefault();
-    this.props.onfiltercountry(this.state);
-    this.props.onfilterfield(this.state);
+    this.props.onfilterfield(this.state.field);
+  };
+  handleSubmitcountry = event => {
+    event.preventDefault();
+    this.props.onfiltercountry(this.state.country);
   };
   handleChange = event => {
     const target = event.target;
@@ -105,13 +108,13 @@ class Jobs extends React.Component {
             aria-label="contacts"
           >
             <form
-              className={this.props.classes.root}
               noValidate
               autoComplete="off"
+              onSubmit={this.handleSubmitfield}
             >
               <ListItem button>
                 <ListItemIcon>
-                  <HomeIcon />
+                  <BorderColorIcon />
                 </ListItemIcon>
                 <TextField
                   id="standard-basic"
@@ -120,9 +123,15 @@ class Jobs extends React.Component {
                   onChange={this.handleChange}
                 />
               </ListItem>
+            </form>
+            <form
+              noValidate
+              autoComplete="off"
+              onSubmit={this.handleSubmitcountry}
+            >
               <ListItem button>
                 <ListItemIcon>
-                  <BorderColorIcon />
+                  <HomeIcon />
                 </ListItemIcon>
                 <TextField
                   id="standard-basic"
@@ -131,9 +140,6 @@ class Jobs extends React.Component {
                   onChange={this.handleChange}
                 />
               </ListItem>
-              <Button type="submit" onSubmit={this.handleSubmit}>
-                Submit
-              </Button>
             </form>
           </List>
         </Grid>

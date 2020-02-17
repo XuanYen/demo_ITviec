@@ -2,9 +2,7 @@ import React from "react";
 import Navbar from "./components/Navbar";
 import Jobs from "./components/Jobs";
 import Companies from "./components/Companies";
-import Blogs from "./components/Blogs";
 import Signin from "./components/Signin";
-import Employers from "./components/Employers";
 import Footers from "./components/Footers";
 import Postjob from "./components/Postjob";
 import Jobdetails from "./components/Jobdetails";
@@ -32,9 +30,7 @@ export default function App() {
           <Route path="/job/:idjob" component={Jobdetails} />
           <Route path="/companies" component={Companies} />
           <Route path="/company/:idcompany" component={Companydetail} />
-          <Route path="/blogs" component={Blogs} />
           <Route path="/signin" component={Signin} />
-          <Route path="/employers" component={Employers} />
           <Footers />
         </div>
       </Provider>

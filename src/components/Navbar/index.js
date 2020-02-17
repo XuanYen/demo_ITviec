@@ -32,17 +32,6 @@ function Navbar(props) {
                 Companies
               </Link>
             </Button>
-
-            <Button>
-              <Link style={style} to="/blogs">
-                Blog
-              </Link>
-            </Button>
-            <Button>
-              <Link style={style} to="/employers">
-                Employers
-              </Link>
-            </Button>
             {props.issignin ? (
               <Button style={style}>
                 <AccountCircleIcon />

@@ -5,24 +5,29 @@ import { Link } from "react-router-dom";
 import { connect } from "react-redux";
 import * as actions from "../../actions";
 import ArrowForwardIosIcon from "@material-ui/icons/ArrowForwardIos";
+import FormatQuoteIcon from "@material-ui/icons/FormatQuote";
 const useStyles = makeStyles(theme => ({
   margin: {
     margin: theme.spacing(1)
   },
   box: {
-    margin: "1rem 5rem",
+    margin: "1rem 3rem",
+    padding: "1rem",
     textTransform: "none",
     textAlign: "left",
     "& img": {
       maxWidth: "100%",
       objectFit: "contain"
+    },
+    "& div": {
+      margin: 0
     }
   },
   link: {
     margin: "0.5rem",
     "& a": {
       textDecoration: "none",
-      color: "black"
+      color: "white"
     },
     "& svg": {
       fontSize: "1rem"
@@ -34,7 +39,7 @@ function Job(props) {
   const { id, title, field, company, logo, description } = props;
 
   return (
-    <Box display="flex" className={classes.box}>
+    <Box display="flex" className={classes.box} boxShadow={3}>
       <Box width="30%">
         <img src={logo} alt="No logo :)" />
       </Box>
@@ -51,7 +56,10 @@ function Job(props) {
           <Link to={`job/${id}`}>See into view</Link>
         </Button>
         <Box>
-          <Typography variant="p">{description[0]}</Typography>
+          <Typography variant="p">
+            <FormatQuoteIcon />
+            {description[0]}
+          </Typography>
           <Box>
             {field.map(f => (
               <Button

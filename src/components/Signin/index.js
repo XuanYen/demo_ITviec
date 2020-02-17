@@ -142,7 +142,7 @@ class Signin extends React.Component {
                   />
                   <Button
                     variant="contained"
-                    color="secondary"
+                    color="primary"
                     className={this.props.classes.apply}
                     type="submit"
                     variant="outlined"

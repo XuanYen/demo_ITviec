@@ -15,7 +15,7 @@ import TextField from "@material-ui/core/TextField";
 import * as actions from "../../actions";
 const styles = {
   root: {
-    margin: "2rem 0rem"
+    margin: "5rem 0rem"
   },
   post: {
     textDecoration: "none",
@@ -24,10 +24,10 @@ const styles = {
     fontWeight: "bold",
     textAlign: "left",
     "& div": {
-      textAlign: "center",
-      margin: "1rem"
+      textAlign: "center"
     }
   },
+
   list: {
     width: "100%",
     maxWidth: 360,
@@ -71,6 +71,7 @@ class Jobs extends React.Component {
         direction="row"
         justify="center"
         className={this.props.classes.root}
+        spacing={3}
       >
         <Grid item xs={9}>
           <Link to="/postjob" className={this.props.classes.post}>
@@ -101,7 +102,9 @@ class Jobs extends React.Component {
           </Box>
         </Grid>
         <Grid item xs={3}>
-          <Typography>Filter</Typography>
+          <Typography variant="h5" color="black">
+            Sort
+          </Typography>
           <List
             component="nav"
             className={this.props.classes.list}

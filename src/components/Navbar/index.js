@@ -8,10 +8,11 @@ function Navbar(props) {
     textDecoration: "none",
     color: "white"
   };
+
   return (
     <div>
       <AppBar
-        position="static"
+        position="fixed"
         color="inherit"
         style={{ backgroundColor: "black" }}
       >

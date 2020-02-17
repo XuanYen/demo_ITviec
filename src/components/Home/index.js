@@ -1,16 +1,11 @@
 import React, { Component } from "react";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import { Carousel } from "react-responsive-carousel";
-import { withStyles } from "@material-ui/core";
-const styles = {
-  text: {
-    fontSize: "0.8rem"
-  }
-};
+
 class Home extends React.Component {
   render() {
     return (
-      <Carousel className={this.props.classes.text}>
+      <Carousel>
         <div>
           <img src="https://cdn.itviec.com/photos/41678/processed_headline_photo/bocasay-headline_photo.JPG?ST9XVBd8aohXHX6ZJgYGcEex" />
           <p className="legend">Hoạt động thường niên công ty</p>
@@ -27,4 +22,4 @@ class Home extends React.Component {
     );
   }
 }
-export default withStyles(styles)(Home);
+export default Home;

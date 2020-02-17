@@ -1,8 +1,10 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import { AppBar, Toolbar, Button, Box } from "@material-ui/core";
+import { AppBar, Toolbar, Button, Box, Typography } from "@material-ui/core";
 import { connect } from "react-redux";
 import AccountCircleIcon from "@material-ui/icons/AccountCircle";
+import ListItem from "@material-ui/core/ListItem";
+import ListItemIcon from "@material-ui/core/ListItemIcon";
 function Navbar(props) {
   const style = {
     textDecoration: "none",
@@ -12,7 +14,7 @@ function Navbar(props) {
   return (
     <div>
       <AppBar
-        position="fixed"
+        position="static"
         color="inherit"
         style={{ backgroundColor: "black" }}
       >
@@ -34,8 +36,11 @@ function Navbar(props) {
               </Link>
             </Button>
             {props.issignin ? (
-              <Button style={style}>
-                <AccountCircleIcon />
+              <Button>
+                <Link style={style} to="/account">
+                  <AccountCircleIcon />
+                </Link>
+                <Typography style={style}>{props.account[0].name}</Typography>
               </Button>
             ) : (
               <Button>
@@ -52,7 +57,8 @@ function Navbar(props) {
 }
 const mapStateToProps = state => {
   return {
-    issignin: state.status
+    issignin: state.status,
+    account: state.acc
   };
 };
 const mapDispatchToProps = null;

@@ -33,3 +33,9 @@ export const filterfield = field => {
     field
   };
 };
+export const infoaccount = acc => {
+  return {
+    type: types.POST_ACC,
+    acc
+  };
+};

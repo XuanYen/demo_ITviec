@@ -19,13 +19,14 @@ const styles = {
   box: {
     margin: "5rem auto"
   },
-  apply: {
-    width: "100%"
+  submit: {
+    width: "100%",
+    margin: "2rem auto"
   }
 };
 
 class Signin extends React.Component {
-  state = {
+  /*state = {
     name: "",
     email: "",
     password: "",
@@ -33,9 +34,10 @@ class Signin extends React.Component {
     pass: "",
     issignin: false
   };
-
+*/
   handleSubmit = event => {
     event.preventDefault();
+    this.props.saveaccount(this.state);
     if (this.state.name.trim() == "") {
       alert("Name Null. Name must be fill");
     } else if (
@@ -109,12 +111,13 @@ class Signin extends React.Component {
                     id="standard-basic"
                     label="Password"
                     name="password"
+                    type="password"
                     onChange={this.handleChange}
                   />
                   <Button
                     variant="contained"
-                    color="secondary"
-                    className={this.props.classes.apply}
+                    color="primary"
+                    className={this.props.classes.submit}
                     type="submit"
                   >
                     Create My Account
@@ -138,12 +141,13 @@ class Signin extends React.Component {
                     id="standard-basic"
                     label="Password"
                     name="pass"
+                    type="password"
                     onChange={this.handleChange}
                   />
                   <Button
                     variant="contained"
                     color="primary"
-                    className={this.props.classes.apply}
+                    className={this.props.classes.submit}
                     type="submit"
                     variant="outlined"
                   >
@@ -161,7 +165,8 @@ class Signin extends React.Component {
 
 const mapDispatchToProps = dispatch => {
   return {
-    changeStatus: () => dispatch(actions.status())
+    changeStatus: () => dispatch(actions.status()),
+    saveaccount: acc => dispatch(actions.infoaccount(acc))
   };
 };
 

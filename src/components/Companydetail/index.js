@@ -103,17 +103,17 @@ class Companydetail extends React.Component {
             <CircularProgress size={40} />
           </Box>
         ) : (
-          <Box mx="auto" width="80vw">
-            <Box>
-              <Box>
-                <CardMedia
-                  component="img"
-                  alt="Banner"
-                  image={banner}
-                  title="Banner"
-                  width="100%"
-                />
-              </Box>
+          <Box>
+            <Box width="100vw">
+              <CardMedia
+                component="img"
+                alt="Banner"
+                image={banner}
+                title="Banner"
+                width="100%"
+              />
+            </Box>
+            <Box mx="auto" width="80vw">
               <Box className={this.props.classes.header}>
                 <Box>
                   <Typography variant="h6">{company}</Typography>
@@ -164,7 +164,7 @@ class Companydetail extends React.Component {
                 </Box>
               </Box>
             </Box>
-            <Box width="60vw">
+            <Box mx="auto" width="80vw">
               {
                 <Tabs>
                   <TabList>

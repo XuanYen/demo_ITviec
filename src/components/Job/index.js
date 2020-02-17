@@ -44,7 +44,9 @@ function Job(props) {
         <img src={logo} alt="No logo :)" />
       </Box>
       <Box className={classes.box} width="70%">
-        <Typography variant="h6">{title}</Typography>
+        <Typography variant="h6">
+          #{id} {title}
+        </Typography>
         <Typography variant="h6">{company}</Typography>
         <Button
           onClick={() => props.onjobdetail(id)}

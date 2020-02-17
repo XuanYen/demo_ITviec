@@ -13,6 +13,7 @@ import { createStore } from "redux";
 import { Provider } from "react-redux";
 import rootReducer from "./reducers";
 import Home from "./components/Home";
+import Account from "./components/Account";
 let store = createStore(
   rootReducer,
   window.__REDUX_DEVTOOLS_EXTENSION__ && window.__REDUX_DEVTOOLS_EXTENSION__()
@@ -31,6 +32,7 @@ export default function App() {
           <Route path="/companies" component={Companies} />
           <Route path="/company/:idcompany" component={Companydetail} />
           <Route path="/signin" component={Signin} />
+          <Route path="/account" component={Account} />
           <Footers />
         </div>
       </Provider>

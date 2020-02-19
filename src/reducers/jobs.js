@@ -398,14 +398,13 @@ var rootReducer = (state = jobs, action) => {
     case types.FILTER_COUNTRY:
       var newstate = [];
       newstate = state.filter(ele => ele.country == action.country);
-      state = newstate;
-      return state;
+      [...state] = newstate;
+      return [...state];
     case types.FILTER_FIELD:
       var newstate = [];
       newstate = state.filter(ele => ele.field.indexOf(action.field) != -1);
-      state = newstate;
-
-      return state;
+      [...state] = newstate;
+      return [...state];
     default:
       return state;
   }

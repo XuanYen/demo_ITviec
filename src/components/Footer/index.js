@@ -6,7 +6,7 @@ const styles = {
     textAlign: "left"
   },
   box1: {
-    padding: "1rem",
+    padding: "2rem",
     color: "white",
     background: "black",
     "& a": {
@@ -15,7 +15,7 @@ const styles = {
     }
   },
   box2: {
-    padding: "1rem",
+    padding: "2rem",
     "& a": {
       color: "black",
       fontWeight: 100

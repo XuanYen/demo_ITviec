@@ -73,7 +73,7 @@ class Postjob extends React.Component {
                 name="description"
                 onChange={this.handleChange}
               />
-              <Button variant="contained" color="secondary" type="submit">
+              <Button variant="contained" color="primary" type="submit">
                 <Link to="/jobs">Add Job</Link>
               </Button>
             </form>

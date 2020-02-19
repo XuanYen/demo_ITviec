@@ -27,8 +27,10 @@ const styles = {
 
   list: {
     width: "100%",
-    maxWidth: 360,
-    margin: 0
+    maxWidth: 360
+  },
+  item: {
+    margin: "5rem 0"
   }
 };
 class Jobs extends React.Component {
@@ -119,11 +121,14 @@ class Jobs extends React.Component {
                 );
               })}
           </Box>
-          <Box display="flex" style={{ marginLeft: "40%" }}>
+          <Box
+            display="flex"
+            style={{ marginLeft: "40%", marginBottom: "1rem" }}
+          >
             {pagination}
           </Box>
         </Grid>
-        <Grid item xs={3}>
+        <Grid item xs={3} className={this.props.classes.item}>
           <Typography variant="h5" color="black">
             Sort
           </Typography>
@@ -167,6 +172,14 @@ class Jobs extends React.Component {
               </ListItem>
             </form>
           </List>
+          <Button
+            variant="contained"
+            color="primary"
+            type="submit"
+            onClick={this.props.showjob()}
+          >
+            <Link to="/jobs">Reset</Link>
+          </Button>
         </Grid>
       </Grid>
     );
@@ -180,7 +193,8 @@ const mapStateToProps = state => {
 const mapDispatchToProps = dispatch => {
   return {
     onfiltercountry: country => dispatch(actions.filtercountry(country)),
-    onfilterfield: field => dispatch(actions.filterfield(field))
+    onfilterfield: field => dispatch(actions.filterfield(field)),
+    showjob: () => dispatch(actions.showjob())
   };
 };
 

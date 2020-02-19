@@ -3,8 +3,7 @@ import { Link } from "react-router-dom";
 import { AppBar, Toolbar, Button, Box, Typography } from "@material-ui/core";
 import { connect } from "react-redux";
 import AccountCircleIcon from "@material-ui/icons/AccountCircle";
-import ListItem from "@material-ui/core/ListItem";
-import ListItemIcon from "@material-ui/core/ListItemIcon";
+import * as actions from "../../actions";
 function Navbar(props) {
   const style = {
     textDecoration: "none",
@@ -61,6 +60,5 @@ const mapStateToProps = state => {
     account: state.acc
   };
 };
-const mapDispatchToProps = null;
 
 export default connect(mapStateToProps, null)(Navbar);
